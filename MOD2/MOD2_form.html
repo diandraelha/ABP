@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Praktikan</title>
+</head>
+<body>
+    <h2> Formulir Pendaftaran Praktikan</h2>
+    <form action="" method="POST">
+        <table border="0" width="120">
+            <tr>
+                <td>Name</td>
+                <td>:</td>
+                <td width="900">
+                    <input type="text" name="nama_input" class="text-field" 
+                    id="nama_id" placeholder="Input Nama" value="Praktikan" readonly/></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="uname_input" class="text-field" 
+                    id="uname_id" placeholder="Input Username" value="Praktikum" disabled/></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" name="password_input" class="text-field" 
+                    id="password_id" placeholder="type your password"/></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>
+                    <input type="email" name="email_input" class="text-field" 
+                    id="email_id" placeholder="what's your email"/></td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="gender_input" class="radioB" 
+                    id="radioB" value="Male">Male
+                    <input type="radio" name="gender_input" class="radioB" 
+                    id="radioB" value="Female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi_input" class="checkbox" 
+                    id="checkB_id" value="Reading">Reading <br/>
+                    <input type="checkbox" name="hobi_input" class="checkbox" 
+                    id="checkB_id" value="Swimming">Swimming <br/>
+                    <input type="checkbox" name="hobi_input" class="checkbox" 
+                    id="checkB_id" value="Watching Movie">Watching Movie <br/>
+                </td>
+            </tr>
+            <tr>
+                <td>Degree</td>
+                <td>:</td>
+                <td>
+                    <select name="Degree_input" class="dropdown" id="Degree_id">
+                        <option value="selected">---choose one---</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="Bachelor's Degree">Bachelor's Degree</option>
+                        <option value="Master's Degree">Master's Degree</option>
+                        <option value="Doctoral"> Doctoral Degree</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="5" cols="40"></textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan=3 align="right">
+                    <button type="button" name="cancel" class="btnCancel"
+                    id="btnCancel">CANCEL</button>
+                    <button type="button" name="submit" class="btnSubmit"
+                    id="btnSubmit" value="SUBMIT">SUBMIT</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
