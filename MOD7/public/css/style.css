@@ -1,0 +1,26 @@
+.material-icons {
+    font-size: 15px; 
+    vertical-align: middle; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px; 
+    font-size: 15px; 
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
