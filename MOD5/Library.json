@@ -1,0 +1,16 @@
+{
+    "library" : [
+        {
+            "book category" : "Novel",
+            "title" : "The Catcher in the Rye",
+            "author" : "J.D",
+            "year published" : "1951"
+        },
+        {
+            "book category" : "Non-fiction",
+            "title" : "Sapiens: A Brief History of Humankind",
+            "author" : "Yuval No",
+            "year published" : "2011"
+            }
+    ]
+}

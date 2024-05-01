@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book category="novel">
+    <title lang="en">Bright Young Dead</title>
+    <author>Jessica Fellowes</author>
+    <year>2018</year>
+    </book>
+    <book category="Non-fiction">
+    <title lang="en">Sapiens: A Brief History of Humankind</title>
+    <author>Yuval No</author>
+    <year>2011</year>
+    </book>
+</library>
